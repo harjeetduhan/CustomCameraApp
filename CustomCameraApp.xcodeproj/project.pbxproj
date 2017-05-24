@@ -15,6 +15,8 @@
 		A9BB4CBF1ED35DB60042F5DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9BB4CBD1ED35DB60042F5DE /* LaunchScreen.storyboard */; };
 		A9BB4CCA1ED35DB60042F5DE /* CustomCameraAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A9BB4CC91ED35DB60042F5DE /* CustomCameraAppTests.m */; };
 		A9BB4CD51ED35DB60042F5DE /* CustomCameraAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A9BB4CD41ED35DB60042F5DE /* CustomCameraAppUITests.m */; };
+		A9BB4CE41ED365340042F5DE /* CellCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = A9BB4CE31ED365340042F5DE /* CellCollectionView.m */; };
+		A9BB4CE61ED36E280042F5DE /* checked (1).png in Resources */ = {isa = PBXBuildFile; fileRef = A9BB4CE51ED36E280042F5DE /* checked (1).png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,9 @@
 		A9BB4CD01ED35DB60042F5DE /* CustomCameraAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomCameraAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9BB4CD41ED35DB60042F5DE /* CustomCameraAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomCameraAppUITests.m; sourceTree = "<group>"; };
 		A9BB4CD61ED35DB60042F5DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9BB4CE21ED365340042F5DE /* CellCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CellCollectionView.h; sourceTree = "<group>"; };
+		A9BB4CE31ED365340042F5DE /* CellCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CellCollectionView.m; sourceTree = "<group>"; };
+		A9BB4CE51ED36E280042F5DE /* checked (1).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "checked (1).png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +106,7 @@
 		A9BB4CAE1ED35DB60042F5DE /* CustomCameraApp */ = {
 			isa = PBXGroup;
 			children = (
+				A9BB4CE51ED36E280042F5DE /* checked (1).png */,
 				A9BB4CB21ED35DB60042F5DE /* AppDelegate.h */,
 				A9BB4CB31ED35DB60042F5DE /* AppDelegate.m */,
 				A9BB4CB51ED35DB60042F5DE /* ViewController.h */,
@@ -110,6 +116,8 @@
 				A9BB4CBD1ED35DB60042F5DE /* LaunchScreen.storyboard */,
 				A9BB4CC01ED35DB60042F5DE /* Info.plist */,
 				A9BB4CAF1ED35DB60042F5DE /* Supporting Files */,
+				A9BB4CE21ED365340042F5DE /* CellCollectionView.h */,
+				A9BB4CE31ED365340042F5DE /* CellCollectionView.m */,
 			);
 			path = CustomCameraApp;
 			sourceTree = "<group>";
@@ -246,6 +254,7 @@
 				A9BB4CBF1ED35DB60042F5DE /* LaunchScreen.storyboard in Resources */,
 				A9BB4CBC1ED35DB60042F5DE /* Assets.xcassets in Resources */,
 				A9BB4CBA1ED35DB60042F5DE /* Main.storyboard in Resources */,
+				A9BB4CE61ED36E280042F5DE /* checked (1).png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +281,7 @@
 			files = (
 				A9BB4CB71ED35DB60042F5DE /* ViewController.m in Sources */,
 				A9BB4CB41ED35DB60042F5DE /* AppDelegate.m in Sources */,
+				A9BB4CE41ED365340042F5DE /* CellCollectionView.m in Sources */,
 				A9BB4CB11ED35DB60042F5DE /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -415,7 +425,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CustomCameraApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.CustomCameraApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.restaurentDEV.rockmyluck;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -426,7 +436,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CustomCameraApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.CustomCameraApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.restaurentDEV.rockmyluck;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;

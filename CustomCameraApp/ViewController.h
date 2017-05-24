@@ -8,7 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController<UIImagePickerControllerDelegate, UINavigationControllerDelegate, UICollectionViewDelegate,UICollectionViewDataSource>
+
+@property (strong, nonatomic) IBOutlet UIImageView *imageView;
+- (IBAction)takePhoto:(id)sender;
+
+@property (strong, nonatomic) IBOutlet UICollectionView *collectionView;
 
 
 @end
